@@ -30,14 +30,14 @@ const handleInputChange =(event:React.ChangeEvent<HTMLInputElement>)=>{
     <input
      type="text"
       value={input}
-      placeholder='Введите выражение'
+      placeholder='enter expression'
       onChange={handleInputChange}
         />
-        <button onClick={handlerCalculate}>Вычислить</button>
+        <button onClick={handlerCalculate}>Calculate</button>
         {
         result!==null &&(
             <div>
-                <h3>Результат:</h3>
+                <h3>Result:</h3>
                 <p>{result}</p>
             </div>
         )
