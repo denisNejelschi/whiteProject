@@ -26,7 +26,7 @@ const handleInputChange =(event:React.ChangeEvent<HTMLInputElement>)=>{
   };
   return(
 <div>
-    <h2>Калькулятор</h2>
+    <h2>Calculator</h2>
     <input
      type="text"
       value={input}
